@@ -30,7 +30,7 @@
 		<br><a href="depositWithdrawal.jsp">Make a Deposit/Withdrawal</a><br>
 		<br><a href="transferFunds.jsp">Transfer Funds Between Accounts</a><br>
 		<br><a href="closeAccount.jsp">Close an Account</a><br>
-		<br><a href="http://localhost:8080/BankingProject/LogOutServlet">Log Out</a><br><br><br><br><br><br><br>
+		<br><a href="http://localhost:8080/BankApplication/LogOutServlet">Log Out</a><br><br><br><br><br><br><br>
 	</div>
 </body>
 </html>
