@@ -1,0 +1,11 @@
+input[type=text] {
+	width: 300px;
+}
+
+input[type=password] {
+	width: 300px;
+}
+
+input[name=balance] {
+	width: 150px;
+}
