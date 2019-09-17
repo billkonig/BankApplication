@@ -20,10 +20,9 @@
 		an account? <a href="registration.jsp">Click here</a> to register for
 		one.
 	</h2>
-	<br>
-</div>
+	<br><br>
 	<form class="container" action="LogInServlet" method="post">
-		<div class="form-group">
+		<br><br><div class="form-group">
 			<label for="email">Email</label> <input type="text" required="required"
 				class="form-control" name="email" id="email" placeholder="Email">
 		</div>
@@ -35,5 +34,6 @@
 		<button type="submit" class="btn btn-primary">Submit</button>
 		<br><br>
 	</form>
+	</div>
 </body>
 </html>

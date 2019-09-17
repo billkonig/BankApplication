@@ -18,11 +18,9 @@
 	<h1>
 		Your Accounts
 	</h1>
-</div>
-<br>
+<br><br><br>
 	${customer.accounts}
 	<br><br>
-	<div align="center">
 		<br><a href="home.jsp">Back to Home Page</a><br><br>
 		</div>
 </body>

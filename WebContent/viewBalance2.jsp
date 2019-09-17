@@ -7,6 +7,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>View Balance</title>
+<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
 </head>
 <body>
 <br>
@@ -14,10 +19,9 @@
 	<h1>
 		View Balance
 	</h1>
-</div><br><br>
+<br><br>
 The balance of account ${account.accountId} is: $${account.balance}.
 		<br><br>
-	<div align="center">
 		<br>
 		<a href="home.jsp">Back to Home Page</a><br>
 		<br>

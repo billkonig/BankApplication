@@ -21,9 +21,7 @@
 	</h2>
 	<h3>
 		What would you like to do?<br><br>
-	</h3>
-</div>
-	<div align="center"><br>		
+	</h3><br>		
 		<br><a href="viewBalance1.jsp">View Balance</a><br>
 		<br><a href="accounts.jsp">View Accounts</a><br>
 		<br><a href="createAccount.jsp">Create an Account</a><br>

@@ -18,27 +18,22 @@
 	<h1>
 		Transfer Funds Between Accounts
 	</h1>
-</div>
-<br>
-<form action="TransferFundsServlet" method="post">
-	Enter account ID of account to transfer funds from:
-	<div class="form-group">
-			<br><label for="accountId1">Account ID</label> <input type="text" required="required"
+<br><br>
+<form action="TransferFundsServlet" method="post">	
+	<br><div class="form-group">
+			<label for="accountId1">Enter account ID of account to transfer funds from:</label> <input type="text" required="required"
 				class="form-control" name="accountId1" id="accountId1" placeholder="Account ID">
-		</div>
-	Enter account ID of account to transfer funds to:
+		</div>	
 	<div class="form-group">
-			<br><label for="accountId2">Account ID</label> <input type="text" required="required"
+			<label for="accountId2">Enter account ID of account to transfer funds to:</label> <input type="text" required="required"
 				class="form-control" name="accountId2" id="accountId2" placeholder="Account ID">
-		</div>
-	Enter amount of money you wish to transfer:
+		</div>	
 	<div class="form-group">
-			<br><label for="amount">Amount</label><br> <span>$<input
+			<label for="amount">Enter amount of money you wish to transfer:</label><br> <span>$<input
 				type="text" required="required" name="amount" id="amount" placeholder="0.00" /></span><br>
 		</div>		
 		<button type="submit" class="btn btn-primary">Submit</button></form>
 		<br><br>
-		<div align="center">
 		<br><a href="home.jsp">Back to Home Page</a><br><br>
 		</div>
 </body>

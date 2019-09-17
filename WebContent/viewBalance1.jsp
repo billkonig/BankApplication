@@ -18,17 +18,14 @@
 	<h1>
 		View Balance
 	</h1>
-</div>
-<br>
-	<form action="ViewBalanceServlet" method="post">
-	Enter account ID to view balance:
+<br><br>
+	<form action="ViewBalanceServlet" method="post">	
 	<div class="form-group">
-			<br><label for="accountId">Account ID</label><input type="text" required="required"
+			<br><label for="accountId">Enter account ID to view balance:</label><input type="text" required="required"
 				class="form-control" name="accountId" id="accountId" placeholder="Account ID">
 		</div>
 		<button type="submit">Submit</button>
 		</form><br><br>
-	<div align="center">
 		<br>
 		<a href="home.jsp">Back to Home Page</a><br>
 		<br>

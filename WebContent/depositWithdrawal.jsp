@@ -18,12 +18,10 @@
 	<h1>
 		Make a Deposit or Withdrawal
 	</h1>
-</div>
-<br>
-<form action="DepositWithdrawalServlet" method="post">
-	Enter account ID of account to make deposit to/withdrawal from:
-	<div class="form-group">
-			<br><label for="accountId">Account ID</label> <input type="text" required="required"
+<br><br>
+<form action="DepositWithdrawalServlet" method="post">	
+	<br><div class="form-group">
+			<label for="accountId">Enter account ID of account to make deposit to/withdrawal from:</label> <input type="text" required="required"
 				class="form-control" name="accountId" id="accountId" placeholder="Account ID">
 		</div>
 		<div class="form-group">
@@ -36,7 +34,6 @@
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button></form>
 		<br><br>
-		<div align="center">
 		<br><a href="home.jsp">Back to Home Page</a><br><br>
 		</div>
 </body>
