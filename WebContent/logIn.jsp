@@ -23,11 +23,11 @@
 	<br><br>
 	<form class="container" action="LogInServlet" method="post">
 		<br><br><div class="form-group">
-			<label for="email">Email</label> <input type="text" required="required"
+			<input type="text" required="required"
 				class="form-control" name="email" id="email" placeholder="Email">
 		</div>
 		<div class="form-group">
-			<label for="password">Password</label> <input type="password" required="required"
+			<input type="password" required="required"
 				class="form-control" name="password" id="password"
 				placeholder="Password">
 		</div>
