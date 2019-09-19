@@ -20,7 +20,7 @@
 	</h1>
 <br><br><br>
 	${customer.accounts}
-	<br><br>
+	<br><br><br>
 		<br><a href="home.jsp">Back to Home Page</a><br><br>
 		</div>
 </body>
