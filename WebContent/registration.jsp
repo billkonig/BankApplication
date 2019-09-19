@@ -33,7 +33,7 @@
 				placeholder="Last Name">
 		</div>
 		<div class="form-group">
-			<input type="text" required="required"
+			<input type="email" required="required"
 				class="form-control" name="email" id="email" placeholder="Email">
 		</div>
 		<br>

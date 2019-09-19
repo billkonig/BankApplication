@@ -63,7 +63,7 @@ public class RegistrationServlet extends HttpServlet {
 		customer.setPassword(request.getParameter("password"));
 	
 		session.setAttribute("customer", customer);
-		RequestDispatcher rs = request.getRequestDispatcher("home.jsp");
+		RequestDispatcher rs = request.getRequestDispatcher("thankYou.jsp");
 		rs.forward(request, response);
 		
 		bank.addCustomer(customer);
