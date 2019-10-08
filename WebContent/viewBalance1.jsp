@@ -21,7 +21,7 @@
 <br><br>
 	<form action="ViewBalanceServlet" method="post">	
 	<div class="form-group">
-			<br><label for="accountId">Enter account ID to view balance:</label><input type="text" required="required"
+			<br><label for="accountId">Enter account ID of balance you wish to view:</label><input type="text" required="required"
 				class="form-control" name="accountId" id="accountId" placeholder="Account ID">
 		</div>
 		<button type="submit">Submit</button>

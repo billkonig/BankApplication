@@ -16,8 +16,10 @@
 	<h1>Welcome to RoboBank & Trust!</h1>
 	<br>
 	<h2>
-		Please fill out the information below to register for a new account.<br>
+		Please fill out the information below to register for a new account.
 	</h2>
+	All fields marked with an asterisk (*) are required.
+	<br>
 	<form class="container" action="RegistrationServlet" method="post">
 		<br><br>
 		<h4>Personal Information</h4>
@@ -25,36 +27,36 @@
 		<div class="form-group">
 			<input type="text" required="required"
 				class="form-control" name="firstName" id="firstName"
-				placeholder="First Name">
+				placeholder="First Name*">
 		</div>
 		<div class="form-group">
 			<input type="text" required="required"
 				class="form-control" name="lastName" id="lastName"
-				placeholder="Last Name">
+				placeholder="Last Name*">
 		</div>
 		<div class="form-group">
 			<input type="email" required="required"
-				class="form-control" name="email" id="email" placeholder="Email">
+				class="form-control" name="email" id="email" placeholder="Email*">
 		</div>
 		<br>
 		<h4>Address Information</h4>
 		Please enter your address information:<br>
 		<div class="form-group">
 			<input type="text" required="required"
-				class="form-control" name="street" id="street" placeholder="Street Address">
+				class="form-control" name="street" id="street" placeholder="Street Address*">
 		</div>
 		<div class="form-group">
 			<input type="text" required="required"
-				class="form-control" name="city" id="city" placeholder="City">
+				class="form-control" name="city" id="city" placeholder="City*">
 		</div>
 		<div class="form-group">
 			<input type="text" required="required"
-				class="form-control" name="state" id="state" placeholder="State">
+				class="form-control" name="state" id="state" placeholder="State*">
 		</div>
 		<div class="form-group">
 			<input type="text" required="required"
 				class="form-control" name="zipCode" id="zipCode"
-				placeholder="ZIP Code">
+				placeholder="ZIP Code*">
 		</div>
 		<br>
 		<h4>Password</h4>
@@ -62,7 +64,7 @@
 		<div class="form-group">
 			<input type="password" required="required"
 				class="form-control" name="password" id="password"
-				placeholder="Password">
+				placeholder="Password*">
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button>
 		<br><br>

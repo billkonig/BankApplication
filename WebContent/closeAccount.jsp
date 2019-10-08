@@ -20,7 +20,7 @@
 	<br><br>
 	<form action="CloseAccountServlet" method="post">	
 	<br><div class="form-group">
-			<label for="accountId">Please enter the account ID of the account you wish to close:</label> <input type="text" required="required"
+			<label for="accountId">Enter account ID of account you wish to close:</label> <input type="text" required="required"
 				class="form-control" name="accountId" id="accountId" placeholder="Account ID">
 		</div>
 		<button type="submit">Submit</button>

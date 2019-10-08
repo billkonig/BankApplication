@@ -14,7 +14,7 @@
 <br>
 <div align="center">
 	<h1>
-		Home Page<br><br>
+		RoboBank & Trust<br><br>
 	</h1>
 	<h2>
 		Hello, ${customer.firstName}!

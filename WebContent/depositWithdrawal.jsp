@@ -25,11 +25,11 @@
 				class="form-control" name="accountId" id="accountId" placeholder="Account ID">
 		</div>
 		<div class="form-group">
-			<label for="deposit">Deposit</label><br> <span>$<input
+			<label for="deposit">Deposit amount:</label><br> <span>$<input
 				type="text" required="required" name="deposit" id="deposit" placeholder="0.00" /></span><br>
 		</div>
 		<div class="form-group">
-			<label for="withdrawal">Withdrawal</label><br> <span>$<input
+			<label for="withdrawal">Withdrawal amount:</label><br> <span>$<input
 				type="text" required="required" name="withdrawal" id="withdrawal" placeholder="0.00" /></span><br>
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button></form>
