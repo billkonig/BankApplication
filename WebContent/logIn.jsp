@@ -17,7 +17,7 @@
 	<br>
 	<h2>
 		Please fill out the information below to log in.<br> Don't have
-		an account? <a href="registration.jsp">Click here</a> to register for
+		an account? Click <a href="registration.jsp">here</a> to register for
 		one.
 	</h2>
 	<br><br>
