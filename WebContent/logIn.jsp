@@ -12,7 +12,8 @@
 </head>
 <body><br>
 <div align="center">
-	<h1>Welcome to RoboBank & Trust!</h1><br>
+	<h1>Welcome to RoboBank & Trust!</h1>
+	<br>
 	<h2>
 		Please fill out the information below to log in.<br> Don't have
 		an account? Click <a href="registration.jsp">here</a> to register for

@@ -15,8 +15,8 @@
 <br>
 <div align="center">
 	<h1>Thank you for registering with RoboBank & Trust!</h1>
-	<br><br>
-		<br><a href="home.jsp">Go to Home Page</a><br><br>
+	<br><br><br>
+		<a href="home.jsp">Go to Home Page</a><br><br>
 		</div>
 </body>
 </html>
